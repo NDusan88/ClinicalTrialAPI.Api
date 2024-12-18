@@ -77,5 +77,19 @@ namespace ClinicalTrialAPI.Tests.Services
             Assert.Equal(2, result.Count);
             Assert.All(result, t => Assert.Equal(status, t.Status));
         }
+
+        [Fact]
+        public async Task AddClinicalTrialAsync_ValidTrial_CallsUseCase()
+        {
+            var mockRepository = new Mock<IClinicalTrialRepository>();
+            var useCase = new AddClinicalTrialUseCase(mockRepository.Object);
+            var service = new ClinicalTrialService(useCase, null, null);
+
+            var trial = new ClinicalTrial { Title = "Trial 1", Status = "Ongoing", StartDate = DateTime.Now };
+
+            await service.AddClinicalTrialAsync(trial);
+
+            mockRepository.Verify(r => r.AddAsync(trial), Times.Once);
+        }
     }
 }

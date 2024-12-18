@@ -3,6 +3,7 @@ using ClinicalTrialAPI.Api.Models;
 using ClinicalTrialAPI.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace ClinicalTrialAPI.Api.Controllers
 {
@@ -35,23 +36,44 @@ namespace ClinicalTrialAPI.Api.Controllers
         }
 
         [HttpPost("upload")]
-        public async Task<IActionResult> Upload([FromBody] ClinicalTrialRequest request)
+        public async Task<IActionResult> Upload(IFormFile file)
         {
+            const long MaxFileSize = 1 * 1024 * 1024; // 1 MB
+            var allowedExtensions = new[] { ".json" };
+
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file was uploaded.");
+            }
+
+            if (!allowedExtensions.Contains(Path.GetExtension(file.FileName).ToLower()))
+            {
+                return BadRequest("Only .json files are allowed.");
+            }
+
+            if (file.Length > MaxFileSize)
+            {
+                return BadRequest($"File size must not exceed {MaxFileSize / (1024 * 1024)} MB.");
+            }
+
+            using var reader = new StreamReader(file.OpenReadStream());
+            var fileContent = await reader.ReadToEndAsync();
+
             try
             {
-                var trial = request.Trial;
-                var result = await _service.AddClinicalTrialAsync(trial);
+                var request = JsonConvert.DeserializeObject<ClinicalTrialRequest>(fileContent);
+                var result = await _service.AddClinicalTrialAsync(request.Trial);
                 return Ok(result);
             }
-            catch (ArgumentNullException ex)
+            catch (JsonException ex)
             {
-                _logger.LogError(ex, "The request body was null or missing required properties.");
-                return BadRequest("The trial information is required.");
+                _logger.LogError(ex, "Invalid JSON format in the uploaded file.");
+                return BadRequest("The uploaded file does not contain valid JSON.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while uploading a clinical trial.");
-                return StatusCode(500, "Unable to upload the clinical trial. Please try again later.");
+                _logger.LogError(ex, "An error occurred while processing the file upload.");
+                return StatusCode(500, "An unexpected error occurred. Please try again later.");
             }
         }
 

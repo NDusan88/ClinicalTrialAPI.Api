@@ -9,3 +9,15 @@ C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Domain\obj\De
 C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Domain\obj\Debug\net8.0\refint\ClinicalTrialAPI.Domain.dll
 C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.pdb
 C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ref\ClinicalTrialAPI.Domain.dll
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\bin\Debug\net8.0\ClinicalTrialAPI.Domain.deps.json
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\bin\Debug\net8.0\ClinicalTrialAPI.Domain.dll
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\bin\Debug\net8.0\ClinicalTrialAPI.Domain.pdb
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.AssemblyInfo.cs
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.sourcelink.json
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.dll
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\refint\ClinicalTrialAPI.Domain.dll
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ClinicalTrialAPI.Domain.pdb
+C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Domain\obj\Debug\net8.0\ref\ClinicalTrialAPI.Domain.dll

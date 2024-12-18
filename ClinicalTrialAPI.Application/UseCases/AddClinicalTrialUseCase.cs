@@ -13,10 +13,16 @@ namespace ClinicalTrialAPI.Application.UseCases
 
         public async Task<ClinicalTrial> ExecuteAsync(ClinicalTrial clinicalTrial)
         {
+            if (clinicalTrial.Status == "Ongoing" && clinicalTrial.EndDate == default)
+            {
+                clinicalTrial.EndDate = clinicalTrial.StartDate.AddMonths(1);
+            }
+
             clinicalTrial.Duration = (clinicalTrial.EndDate - clinicalTrial.StartDate).Days;
 
             await _repository.AddAsync(clinicalTrial);
             return clinicalTrial;
         }
+
     }
 }

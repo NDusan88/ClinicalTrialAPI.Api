@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MDhZSO9KWCk=",
+  "dgSpecHash": "pW2HcrHyVwM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

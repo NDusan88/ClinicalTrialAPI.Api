@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj": {}
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj": {
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj",
+        "projectUniqueName": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj",
         "projectName": "ClinicalTrialAPI.Api",
-        "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj",
-        "packagesPath": "C:\\Users\\LifeIsGood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\obj\\",
+        "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj",
+        "packagesPath": "C:\\Users\\dn185116\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LifeIsGood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dn185116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj"
               }
             }
           }
@@ -47,9 +47,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -135,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj",
         "projectName": "ClinicalTrialAPI.Application",
-        "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj",
-        "packagesPath": "C:\\Users\\LifeIsGood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\obj\\",
+        "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\dn185116\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LifeIsGood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dn185116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -168,11 +167,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
               },
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj"
               }
             }
           }
@@ -185,9 +184,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -222,24 +220,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
         "projectName": "ClinicalTrialAPI.Domain",
-        "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\LifeIsGood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\obj\\",
+        "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\dn185116\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LifeIsGood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dn185116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,9 +263,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -288,24 +285,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj",
         "projectName": "ClinicalTrialAPI.Infrastructure",
-        "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\LifeIsGood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\dn185116\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LifeIsGood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dn185116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -321,8 +318,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
               }
             }
           }
@@ -335,9 +332,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -388,24 +384,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj": {
+    "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj",
         "projectName": "ClinicalTrialAPI.Tests",
-        "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj",
-        "packagesPath": "C:\\Users\\LifeIsGood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Tests\\obj\\",
+        "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Tests\\ClinicalTrialAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\dn185116\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LifeIsGood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dn185116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -421,17 +417,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Api.csproj"
               },
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Application\\ClinicalTrialAPI.Application.csproj"
               },
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Domain\\ClinicalTrialAPI.Domain.csproj"
               },
-              "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj"
+              "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\dn185116\\source\\repos\\ClinicalTrialAPI.Api\\ClinicalTrialAPI.Infrastructure\\ClinicalTrialAPI.Infrastructure.csproj"
               }
             }
           }
@@ -444,9 +440,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -503,7 +498,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
