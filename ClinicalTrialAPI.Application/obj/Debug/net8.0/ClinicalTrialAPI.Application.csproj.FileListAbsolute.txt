@@ -1,0 +1,17 @@
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Application.deps.json
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Application.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Application.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Domain.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Infrastructure.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Domain.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\bin\Debug\net8.0\ClinicalTrialAPI.Infrastructure.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.csproj.AssemblyReference.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.AssemblyInfoInputs.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.AssemblyInfo.cs
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\Clinical.5C520DC3.Up2Date
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\refint\ClinicalTrialAPI.Application.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ClinicalTrialAPI.Application.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Application\obj\Debug\net8.0\ref\ClinicalTrialAPI.Application.dll

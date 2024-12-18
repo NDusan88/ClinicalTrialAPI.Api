@@ -1,0 +1,17 @@
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Infrastructure.deps.json
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Infrastructure.runtimeconfig.json
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Infrastructure.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Infrastructure.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Domain.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\bin\Debug\net9.0\ClinicalTrialAPI.Domain.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\Clinical.7C004343.Up2Date
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\refint\ClinicalTrialAPI.Infrastructure.dll
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.pdb
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ClinicalTrialAPI.Infrastructure.genruntimeconfig.cache
+C:\Users\LifeIsGood\source\repos\ClinicalTrialAPI\ClinicalTrialAPI.Infrastructure\obj\Debug\net9.0\ref\ClinicalTrialAPI.Infrastructure.dll

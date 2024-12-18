@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ClinicalTrialAPI.Api.Controllers.ClinicalTrialsController",
+    "Method": "GetById",
+    "RelativePath": "api/ClinicalTrials/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicalTrialAPI.Api.Controllers.ClinicalTrialsController",
+    "Method": "Upload",
+    "RelativePath": "api/ClinicalTrials/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trial",
+        "Type": "ClinicalTrialAPI.Domain.Entities.ClinicalTrial",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

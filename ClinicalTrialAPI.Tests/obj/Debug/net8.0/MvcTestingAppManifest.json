@@ -1,0 +1,6 @@
+{
+  "ClinicalTrialAPI.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Api",
+  "ClinicalTrialAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Application",
+  "ClinicalTrialAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Domain",
+  "ClinicalTrialAPI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\LifeIsGood\\source\\repos\\ClinicalTrialAPI\\ClinicalTrialAPI.Infrastructure"
+}
