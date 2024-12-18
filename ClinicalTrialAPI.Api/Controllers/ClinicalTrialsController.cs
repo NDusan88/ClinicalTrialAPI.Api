@@ -1,6 +1,7 @@
 ﻿using Azure.Core;
 using ClinicalTrialAPI.Api.Models;
 using ClinicalTrialAPI.Application.Interfaces;
+using ClinicalTrialAPI.Application.Validators;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -62,6 +63,15 @@ namespace ClinicalTrialAPI.Api.Controllers
             try
             {
                 var request = JsonConvert.DeserializeObject<ClinicalTrialRequest>(fileContent);
+
+                var validator = new ClinicalTrialValidator();
+                var validationResult = validator.Validate(request.Trial);
+
+                if (!validationResult.IsValid)
+                {
+                    return BadRequest(validationResult.Errors);
+                }
+
                 var result = await _service.AddClinicalTrialAsync(request.Trial);
                 return Ok(result);
             }
