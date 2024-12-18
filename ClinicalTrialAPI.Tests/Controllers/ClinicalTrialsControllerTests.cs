@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
+using System.IO;
 using System.Text;
 
 namespace ClinicalTrialAPI.Tests.Controllers
@@ -22,14 +23,18 @@ namespace ClinicalTrialAPI.Tests.Controllers
         }
 
         [Fact]
-        public async Task Upload_ValidFile_ReturnsOk()
+        public async Task Upload_ValidFile_ReturnsOK()
         {
-            var jsonData = "{ \"trial\": { \"trialId\": \"1\", \"title\": \"Test Trial\", \"startDate\": \"2024-06-01\", \"endDate\": \"2024-06-30\", \"participants\": 10, \"status\": \"Ongoing\" } }";
+            // Arrange
+            var jsonData = "{ \"trial\": { \"trialId\": \"a242071a-23f3-42ad-bb63-01c27fc7d69c\", \"title\": \"Test Trial\", \"startDate\": \"2024-06-01\", \"endDate\": \"2024-06-30\", \"participants\": 10, \"status\": \"Ongoing\" } }";
             var file = new FormFile(new MemoryStream(Encoding.UTF8.GetBytes(jsonData)), 0, jsonData.Length, "file", "test.json");
 
+            // Act
             var result = await _controller.Upload(file);
 
-            Assert.IsType<OkObjectResult>(result);
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            Assert.NotNull(okResult);
         }
 
         [Fact]
@@ -37,6 +42,7 @@ namespace ClinicalTrialAPI.Tests.Controllers
         {
             var file = new Mock<IFormFile>();
             file.Setup(f => f.Length).Returns(2 * 1024 * 1024); // 2 MB
+            file.Setup(f => f.FileName).Returns("test.json"); // Add FileName
 
             var result = await _controller.Upload(file.Object);
 
@@ -48,6 +54,7 @@ namespace ClinicalTrialAPI.Tests.Controllers
         public async Task Upload_InvalidFileExtension_ReturnsBadRequest()
         {
             var file = new Mock<IFormFile>();
+            file.Setup(f => f.Length).Returns(1 * 1024 * 1024);
             file.Setup(f => f.FileName).Returns("test.txt");
 
             var result = await _controller.Upload(file.Object);

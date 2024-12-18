@@ -31,5 +31,9 @@
   <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
+  
+  <ItemGroup>
+  <ProjectReference Include="..\ClinicalTrialAPI.Api\ClinicalTrialAPI.Api.csproj" />
+</ItemGroup>
 
 </Project>

@@ -2190,3 +2190,18 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
 2024-12-18 16:41:01.523 +01:00 [INF] Executed action ClinicalTrialAPI.Api.Controllers.ClinicalTrialsController.Upload (ClinicalTrialAPI.Api) in 9679.7682ms
 2024-12-18 16:41:01.527 +01:00 [INF] Executed endpoint 'ClinicalTrialAPI.Api.Controllers.ClinicalTrialsController.Upload (ClinicalTrialAPI.Api)'
 2024-12-18 16:41:01.534 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/ClinicalTrials/upload - 200 null application/json; charset=utf-8 9726.7839ms
+2024-12-18 19:20:05.249 +01:00 [INF] Now listening on: https://localhost:7131
+2024-12-18 19:20:05.300 +01:00 [INF] Now listening on: http://localhost:5090
+2024-12-18 19:20:05.417 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 19:20:05.419 +01:00 [INF] Hosting environment: Development
+2024-12-18 19:20:05.421 +01:00 [INF] Content root path: C:\Users\dn185116\source\repos\ClinicalTrialAPI.Api\ClinicalTrialAPI.Api
+2024-12-18 19:20:06.276 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/index.html - null null
+2024-12-18 19:20:06.694 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/index.html - 200 null text/html;charset=utf-8 428.8457ms
+2024-12-18 19:20:06.731 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/index.js - null null
+2024-12-18 19:20:06.731 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-18 19:20:06.731 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-18 19:20:06.746 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/index.js - 200 null application/javascript;charset=utf-8 13.993ms
+2024-12-18 19:20:06.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 45.6642ms
+2024-12-18 19:20:06.826 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.7698ms
+2024-12-18 19:20:06.906 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-18 19:20:07.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.3219ms
