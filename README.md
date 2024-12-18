@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed:
 
 3. **Run Database Migrations**
    ```bash
-   dotnet ef database update
+   dotnet ef database update --project ClinicalTrialAPI.Infrastructure --startup-project ClinicalTrialAPI.API
    ```
 
 4. **Run the Application**
